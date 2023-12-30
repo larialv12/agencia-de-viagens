@@ -1,0 +1,1118 @@
+
+
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #80808029;
+    font-family:Raleway;
+
+}
+
+/* TOPO */
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    color: purple;
+    align-items: center;
+    margin:0  0 0 0 ;
+    font-weight: bold;
+    background-color: #fff;
+    width: 100%;
+    height: 80%;
+    justify-content: center;
+    font-size: 24px;
+    
+}
+
+header img {
+    width: 30px;
+    height: 30px;
+
+     
+
+    
+}
+
+
+
+
+
+
+
+
+/* FORMULARIO*/
+
+.form .topo-forms {
+    display: flex;
+    flex-direction: row;
+    background-color:blueviolet ;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    margin-left:10%;
+
+}
+
+
+
+.form div img {
+    width: 20px;
+    height:20px;
+    
+}
+
+.form div h1 {
+    font-size: 1.5em;
+    color: white;
+    font-weight: bold;
+}
+
+.form div img,h1 {
+    margin: 3px 4px;
+}
+
+
+.informacoes-basicas input {
+
+    width: 100%;
+    height:25px;
+}
+
+.data input {
+    height: 20px;
+}
+
+
+.formulario {
+    font-size: 0.9em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    white-space: wrap;
+}
+
+
+input {
+    margin-bottom: 10px;
+  }
+
+  
+ ::placeholder {
+    opacity: 0.8;
+ }
+ 
+
+  .Origem select {
+    width: 20%;
+    height: 30px;
+    font-size: 0.7em;
+  }
+  
+  .data  {
+    white-space: nowrap;
+ }
+
+  
+
+
+
+.form {
+    height: 670px;
+    width: 100%;
+    background-image: url('/download-arquivos-do-projeto/assets/imagens/bahia.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    padding-top: 50px;
+
+    
+
+}
+
+
+  .form form {
+    width: 80%;
+    margin-left: 10%;
+     height: 600px;
+    background-color: #fff;
+    
+    
+
+    
+ }
+
+ fieldset{
+    border: none;
+    padding: 0px 30px;
+ }
+
+ 
+
+ .formulario button {
+    margin-top: 10px;
+  }
+
+
+
+
+ 
+ .informacoes-basicas input{
+    width: 100%;
+
+ }
+
+ 
+.data input {
+    width: 40%;
+    margin-top: 5px;
+    
+}
+
+.data  label {
+    white-space: nowrap;;
+}
+
+.Origem select {
+    width: 100%;
+    white-space: nowrap;
+    margin-top: 5px;
+
+}
+
+.selecione {
+    margin-top: 1%;
+}
+
+/* OFERTAS*/
+
+
+
+ 
+
+
+
+
+ 
+
+  
+.ofertas h2 {
+    margin-left: 8%;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+ 
+
+
+
+.anuncios-img{
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.ofertas-area {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 32px auto 0 auto;
+}
+
+.ofertas-titulo  {
+    font-size: 20px;
+    margin: -15px 0px 2px 50px;
+
+}
+
+
+
+.ofertas-titulo span {
+    font-weight: bold;
+}
+
+
+.ofertas-imagens {
+    width: 100%;
+    height: 375px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.oferta-imagem-destaque {
+    position: relative;
+    width: calc(50% - 10px);
+    height: 100%;
+}
+
+.oferta-quatro-imagens {
+    width: calc(50% - 10px);
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 1%;
+}
+
+.oferta-quatro-imagens figure {
+    position: relative;
+    width: calc(50% - 10px);
+    height: calc(50% - 10px);
+    margin: 0 2px;
+}
+
+.oferta-imagem-destaque img, .oferta-quatro-imagens img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.oferta-imagem-destaque figcaption, .oferta-quatro-imagens figcaption {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+    width: 100%;
+    background: rgb(0 0 0 / 50%);
+    font-size: 17px;
+    color: #fff;
+
+    padding: 5px 10px;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+/* ANUNCIOS*/
+
+
+.anuncio-img {
+    margin: 10px;
+}
+
+.anuncios-img img:nth-child(1){
+    
+     width:620px;
+     height: 300px;
+}
+
+.anuncio-texto {
+    width: 100%;
+    background-color: #fff;
+    padding-top: 1px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   box-sizing: border-box;
+ 
+  
+}
+
+.anuncio-texto h3 { 
+    font-weight: 900;
+    margin: 15px 5px 0px 30px;
+
+    
+
+}
+
+.anuncio-texto p {
+    color: grey;
+    font-size: 18px;
+    margin: 10px 20px 0px 30px;
+    font-size: 16px;
+    padding-bottom: 8px;
+    
+}
+
+.anuncios h2 {
+    margin: 15px 60px;
+    font-size: 1.3em;
+}
+
+.anuncios{
+    margin-top: 5%;
+}
+
+
+
+
+
+.form button {
+    background-color: blueviolet;
+    color: white;
+    padding: 10px 10px;
+    font-size: 15px;
+    border: blueviolet;
+    font-weight: bold;
+
+}
+
+/* RODAPE*/
+
+
+footer {
+    background-color:blueviolet ;
+    height: 240px;
+    margin-top: 100px;
+    font-size: 22px;
+    font-weight: bold;
+    
+}
+
+
+
+footer  img {
+    width: 20px;
+    height: 20px;
+
+}
+
+.contato {
+
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    flex-wrap: wrap;
+    margin-left: 70%;
+
+
+}
+
+ 
+
+  .redes {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+   margin-top: -17%;   
+   margin-left: 10%;
+
+}
+
+.redes div {
+    padding:20px 0px 0px 0px;
+}
+
+.contato div {
+    padding:20px 0px 0px 0px;
+}
+
+
+
+     
+    /* RESPONSIVO*/
+
+
+
+
+
+@media  (max-width:790px)  {
+
+    body {
+        margin: 0 0 ;
+        padding: 0 0 ;
+    }
+
+    .informacoes-basicas input {
+        width: 95%;
+    }
+
+    .form div img {
+        width: 15px;
+        height:15px;
+        
+    }
+    
+    .form div h1 {
+        font-size: 1.1em;
+        color: white;
+        font-weight: bold;
+    }
+
+    .formulario {
+        font-size: 0.7em;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        white-space: wrap;
+    }
+
+    .data {
+        white-space: wrap;
+    }
+    .data input {
+        width: 97%;
+    }
+
+    
+   
+    input {
+        margin-bottom: 5px; 
+      }
+
+      .Origem {
+        margin-bottom: 1%;
+
+      }
+
+      fieldset {
+        padding: 5px 5px;
+      }
+
+      
+
+
+.formulario button {
+    margin-top: 10%;
+    width: 60%;
+    padding: 5px 12px;
+    font-size: 15px;
+    white-space: nowrap;
+    width: 100%;
+    
+}
+
+    .selecione label {
+        white-space: nowrap;
+    }
+
+    .preferencia label:first-of-type {
+        white-space: nowrap;
+    }
+
+    input {
+        font-size: 16px;
+    }
+
+    
+   
+
+    
+  .ofertas-titulo {
+     white-space: nowrap;
+     text-align: center;
+     margin: 5px 0px;
+  }
+
+  .ofertas-titulo{
+     font-size: 1.2em;
+     margin: 10px auto;
+  }
+
+   
+
+    
+    .ofertas-imagens {
+        display: flex;
+        flex-direction: column;
+        margin: 5px auto ;
+        
+    }
+
+    .oferta-imagem-destaque {
+        width: 98%;
+        margin: 0 auto;
+        height: 60%;
+
+    }
+
+    .oferta-quatro-imagens {
+        display: flex;
+        margin: 15px 0px 0px 0px ;
+    }
+
+
+    .oferta-quatro-imagens figure {
+       width: 100%;
+       margin:  1px 4px 8px 5px;
+    }
+    
+    
+
+   
+    
+
+
+
+
+
+    
+   
+
+
+  .anuncios-img {
+    display: flex;
+    flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+ .anuncio-img  {
+    margin: 10px 5px;
+    
+
+
+}
+
+.anuncio-texto {
+    width: 350px;
+    margin: 0 5px;
+    padding-top: 2px;
+    font-weight: bold;
+    padding-bottom: 15px;
+    
+
+}
+
+.anuncio-texto h3 {
+    font-size: 1.0em;
+   
+   
+}
+
+.anuncio-texto p {
+    font-size: 1.0em;
+
+   
+
+
+
+}
+
+
+
+
+.anuncios {
+    margin-top: 65%;
+}
+
+
+.anuncios-img img:nth-child(1){
+    width: 350px;
+    height: 200px;
+    margin: 0 5px;
+    
+   
+    
+}
+
+select {
+
+    font-size: 1.1em ;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+.anuncios h2 {
+    margin: 0 auto;
+    text-align: center;
+    
+    width: 100%;
+    font-size: 1.3em;
+}
+
+footer {
+    height: 430px;
+    font-size: 15px;
+    width: 100%;
+    margin: 0;
+}
+
+footer .contato {
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin: 10px 0;
+   width: 100%;
+
+
+}
+
+footer .redes {
+    margin: 0;
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-top: 10px;
+
+}
+
+
+}
+
+
+
+
+
+
+    
+@media    (width:320px){
+
+    body {
+        margin: 0 0 0 0;
+    }
+
+   .anuncios{
+      margin-top: 50px;
+   }
+    .anuncio-texto {
+        width: 300px;
+        margin: 0 5px;
+    
+    }
+    
+    
+    .anuncios {
+        margin-top: 80%;
+    }
+    
+    
+    
+    .anuncios-img img:nth-child(1){
+        width: 300px;
+        height: 200px;
+        margin: 0 5px;
+        
+       
+        
+    }
+
+    .form button {
+        width: 100%;
+
+    }
+
+    .anuncios h2 {
+        font-size: 1.1em;
+    }
+}
+
+    
+@media  screen and (max-width:480px) and (min-width:390px){
+
+    .anuncio-texto {
+        width: 380px;
+        margin: 0 5px;
+    
+    }
+
+   
+    
+    
+    
+    
+    .anuncios-img img:nth-child(1){
+        width: 380px;
+        height: 200px;
+        margin: 0 5px;
+        
+       
+        
+    }
+
+    .anuncios h2 {
+        font-size: 1.3em;
+    }
+
+}
+
+
+@media  (width:768px) {
+
+
+    .form button {
+        margin-top: 5%;
+    }
+
+    .oferta-imagem-destaque {
+        height: 100%;
+    }
+
+
+    .anuncios-img {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .anuncios-img img:nth-child(1){
+        width: 350px;
+        height: 300px;
+        margin: 0 auto;
+    
+
+    } 
+    
+    .anuncios {
+        margin-top: 55%;
+    }
+
+
+
+    .anuncio-texto {
+        width: 350px;
+
+    }
+
+}
+
+
+
+@media     (min-width:800px) and (max-width:890px) {
+
+
+    body {
+        margin: 0 0 ;
+        padding: 0 0 ;
+    }
+
+
+     section .topo-forms h1 {
+        font-size: 1.3em;
+    }
+
+    
+    .informacoes-basicas input {
+        width: 95%;
+    }
+
+    .formulario {
+        font-size: 0.7em;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        white-space: wrap;
+    }
+
+    .data {
+        white-space: wrap;
+    }
+    .data input {
+        width: 97%;
+    }
+
+    
+   
+    input {
+        margin-bottom: 5px; 
+      }
+
+      .Origem {
+        margin-bottom: 1%;
+
+      }
+
+      fieldset {
+        padding: 5px 5px;
+      }
+
+      
+
+
+.formulario button {
+    margin-top: 5%;
+    width: 60%;
+    padding: 5px 12px;
+    font-size: 15px;
+    white-space: nowrap;
+    width: 100%;
+    
+}
+
+    .selecione label {
+        white-space: nowrap;
+    }
+
+    .preferencia label:first-of-type {
+        white-space: nowrap;
+    }
+
+    input {
+        font-size: 16px;
+    }
+
+    .selecione
+   
+
+    
+  .ofertas-titulo {
+     white-space: nowrap;
+     text-align: center;
+     margin: 5px 0px;
+  }
+
+  .ofertas-titulo{
+     font-size: 1.2em;
+  }
+
+   
+
+    
+    .ofertas-imagens {
+        display: flex;
+        flex-direction: column;
+        margin: 5px auto ;
+        
+    }
+
+    .oferta-imagem-destaque {
+        width: 98%;
+        margin: 0 auto;
+        height: 100%;
+
+    }
+
+    .oferta-quatro-imagens {
+        display: flex;
+        margin: 15px 0px 0px 0px ;
+    }
+
+
+    .oferta-quatro-imagens figure {
+       width: 100%;
+       margin:  1px 4px 8px 5px;
+    }
+    
+    
+
+   
+    
+
+
+
+
+
+    .anuncios {
+        margin: 5px auto;
+    }
+
+  .anuncios-img {
+    display: flex;
+    flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+ .anuncio-img  {
+    margin: 10px auto;
+    
+
+
+}
+
+.anuncio-texto {
+    width: 400px;
+    margin: 0 auto;
+    padding-top: 2px;
+    font-weight: bold;
+    padding-bottom: 15px;
+    
+
+}
+
+.anuncio-texto h3 {
+    font-size: 1.4em;
+   
+   
+}
+
+.anuncio-texto p {
+    font-size: 1.2em;
+
+   
+
+
+
+}
+
+
+
+.anuncios {
+    margin-top: 50%;
+}
+
+
+.anuncios-img img:nth-child(1){
+    width: 400px;
+    height: 300px;
+    margin: 0 auto;
+    
+   
+    
+}
+select {
+
+    font-size: 1.1em ;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+.anuncios h2 {
+    margin: 0 auto;
+    text-align: center;
+    
+    width: 100%;
+    font-size: 1.3em;
+}
+
+.form div img {
+    width: 20px;
+    height:20px;
+    
+}
+
+.form div h1 {
+    font-size: 1.3em;
+    color: white;
+    font-weight: bold;
+}
+footer {
+    height: 430px;
+    font-size: 15px;
+    width: 100%;
+    margin: 0;
+}
+
+footer .contato {
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin: 10px 0;
+   width: 100%;
+
+
+}
+
+footer .redes {
+    margin: 0;
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-top: 10px;
+
+}
+ 
+
+ 
+
+
+
+
+
+}
+
+
+
+ @media  (min-width: 900px) and (max-width:1300px)  {
+
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+
+    .data input {
+        width: 37%;
+    }
+
+    .anuncios img {
+        margin: 0 auto;
+    }
+
+    .anuncios {
+        margin: 5px auto ;
+
+    }
+
+    
+
+    .anuncios-img img:nth-child(1){
+        width: 440px;
+        height: 300px;
+        margin: 0 auto;
+        
+       
+        
+    }
+
+    
+ 
+
+
+    footer {
+        height: 430px;
+        font-size: 15px;
+        width: 100%;
+        margin: 0;
+    }
+    
+    footer .contato {
+        display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       margin: 10px 0;
+       width: 100%;
+    
+    
+    }
+    
+    footer .redes {
+        margin: 0;
+        display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       margin-top: 10px;
+    
+    }
+    
+     
+.form div img {
+    width: 15px;
+    height:15px;
+    
+}
+
+.form div h1 {
+    font-size: 1em;
+    color: white;
+    font-weight: bold;
+}
+
+.anuncios {
+    margin-top: 5%;
+}
+ }
