@@ -122,7 +122,7 @@ input {
 .form {
     height: 670px;
     width: 100%;
-    background-image: url('/download-arquivos-do-projeto/assets/imagens/bahia.jpg');
+    background-image: url('download-arquivos-do-projeto/assets/imagens/bahia.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat; 
