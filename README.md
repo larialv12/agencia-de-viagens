@@ -3,11 +3,12 @@
 O site fictício da Agência de Viagens oferece uma plataforma eficiente para viagens. O projeto inclui um formulário estático para que os usuários insiram as informações necessárias para a reserva de viagens e apresenta uma seleção de destinos variados. Além disso, o site possui um design responsivo, garantindo uma experiência de navegação otimizada em dispositivos móveis e desktops.
 
 
-
-![Captura de tela_4-8-2024_22836_agencia-de-viagem-seven vercel app](https://github.com/user-attachments/assets/151f9202-c928-4941-8f72-2e243d54e465)
+<div align="left">
+<img src= "![Captura de tela_4-8-2024_22836_agencia-de-viagem-seven vercel app](https://github.com/user-attachments/assets/151f9202-c928-4941-8f72-2e243d54e465)">
 
 
 ![Captura de tela_4-8-2024_221023_agencia-de-viagem-seven vercel app](https://github.com/user-attachments/assets/f47f81c3-57d1-46f0-a307-6a8d11642235)
+</div>
 
 
 ## :floppy_disk:Recursos
