@@ -4,7 +4,7 @@ O site fictício da Agência de Viagens oferece uma plataforma eficiente para vi
 
 
 <div align="left">
-  <img src="https://github.com/user-attachments/assets/456f9dba-1f64-479d-b99d-7ed60a54c48a" alt="Imagem 1" style="width: 100px; height: 80px;">
+  <img src="https://github.com/user-attachments/assets/456f9dba-1f64-479d-b99d-7ed60a54c48a" alt="Imagem 1" style="width: 100px; height: 100px;">
   <img src="" alt="Imagem 2" style="width: 100px; height: auto;">
 </div>
 
