@@ -3,7 +3,7 @@
 O site fictício da Agência de Viagens oferece uma plataforma eficiente para viagens. O projeto inclui um formulário estático para que os usuários insiram as informações necessárias para a reserva de viagens e apresenta uma seleção de destinos variados. Além disso, o site possui um design responsivo, garantindo uma experiência de navegação otimizada em dispositivos móveis e desktops.
 
 
-<div align="left">
+<div align="center">
   <img src= "https://github.com/user-attachments/assets/f2f00788-fba9-47f4-b466-ebf8ab6ee9e0" alt="Imagem 2" style="width: 200px; height: 400px;">
   <img src="https://github.com/user-attachments/assets/b54d3e39-be1d-4bb5-9b86-0a698c74bb53" alt="Imagem 1" style="width: 400px; height: 400px;">
   
