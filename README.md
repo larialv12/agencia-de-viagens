@@ -4,10 +4,10 @@ O site fictício da Agência de Viagens oferece uma plataforma eficiente para vi
 
 
 <div align="left">
-<img src= "https://github.com/user-attachments/assets/151f9202-c928-4941-8f72-2e243d54e465">
+<img src= "https://github.com/user-attachments/assets/151f9202-c928-4941-8f72-2e243d54e465 style="width: 45%;">
 
 
-![Captura de tela_4-8-2024_221023_agencia-de-viagem-seven vercel app](https://github.com/user-attachments/assets/f47f81c3-57d1-46f0-a307-6a8d11642235)
+<img src = "https://github.com/user-attachments/assets/f47f81c3-57d1-46f0-a307-6a8d11642235  style="width: 45%;">
 </div>
 
 
