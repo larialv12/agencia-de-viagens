@@ -35,7 +35,7 @@ Para configurar e executar este projeto localmente, siga as etapas abaixo:
 
 ## :dart: Uso
 
-Abra o arquivo `index.html` em seu navegador para visualizar o site. Navegue pelas diferentes seções para aprender sobre a vida e as contribuições de Katherine Johnson.
+Abra o arquivo `index.html` em seu navegador para visualizar o site.
 
 ## :round_pushpin:Tecnologias Utilizadas
 
